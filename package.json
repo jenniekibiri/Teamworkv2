@@ -1,0 +1,19 @@
+{
+  "name": "teamwork",
+  "version": "1.0.0",
+  "description": "Teamwork is a platform that allow employees of a certain organization to interact by sharing articles and gifs and therefore teambuliding and bonding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenniekibiri/Teamwork.git"
+  },
+  "author": "jenniekibiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenniekibiri/Teamwork/issues"
+  },
+  "homepage": "https://github.com/jenniekibiri/Teamwork#readme"
+}
