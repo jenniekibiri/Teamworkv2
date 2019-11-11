@@ -11,9 +11,7 @@ install:
 
 script: 
 - npm  run test
-branches:
-  only:
-    - development
+
    services:
  - postgresql
 before_script:
