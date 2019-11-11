@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 language: node_js
 node_js: 
   - "stable"
@@ -19,4 +20,25 @@ before_script:
   - psql -c "CREATE DATABASE teamwork.sql;" -U postgres
 
     after_success: 
+=======
+language: node_js
+node_js:
+- "stable"
+
+install: 
+- npm
+script: 
+- npm test
+ - npm run build
+cache:
+  directories:
+    - "node_modules"
+   
+  services:
+ - postgresql
+before_script:
+  - psql -c "CREATE DATABASE teamwork.sql;" -U postgres
+
+    after_success: 
+>>>>>>> 4de6973779495328148a98764bbe21078a1a1be9
     - npm coverage
